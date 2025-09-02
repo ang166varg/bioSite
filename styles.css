@@ -1,0 +1,217 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #F5F5DC;
+  color: #2F4F4F;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(135deg, #2F4F4F, #A0522D); /* dark green → terracotta blend */
+  color: #FFD700;   /* gold text */
+  padding: 2em;
+  text-align: center;
+  border-bottom: 5px solid #F5F5DC; /* beige accent border */
+  position: relative;
+}
+
+/* Add subtle leaf decoration effect using emojis */
+header h1 {
+  font-family: Georgia, serif;
+  font-size: 2rem;
+  color: #F5F5DC; /* soft beige for contrast */
+  margin-bottom: 15px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFD700;
+}
+
+nav a:hover {
+  color: #F5F5DC; /* hover effect */
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* Gallery Layout */
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.gallery img {
+  width: 250px;
+  height: auto;
+  border: 2px solid #DCDCDC;
+  border-radius: 6px;
+}
+
+/* Main Goals Title Box */
+.main-goals {
+  text-align: center;
+  background-color: #F5F5DC;
+  color: #2F4F4F;
+  border: 3px solid #A0522D;
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 40px auto;
+  font-size: 1.6rem;
+  font-family: Georgia, serif;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+  border-radius: 10px;
+}
+
+.goal h3 {
+  margin-bottom: 15px;
+  color: #2F4F4F;
+  font-family: Georgia, serif;
+}
+
+.goal p {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #2F4F4F;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Goal Card Style (white background like About page) */
+.goal {
+  margin: 40px auto;
+  max-width: 900px;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;   /* White background */
+  border: 2px solid #DCDCDC;   /* Soft gray border */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Soft shadow */
+}
+
+/* Ensure it's centered on the page */
+main {
+  text-align: center;
+}
+
+/* About Page Header */
+header {
+  background: linear-gradient(135deg, #2F4F4F, #A0522D);
+  color: #FFD700;
+  padding: 2em;
+  text-align: center;
+  border-bottom: 5px solid #F5F5DC;
+}
+
+header h1 {
+  font-family: Georgia, serif;
+  font-size: 2rem;
+  color: #F5F5DC;
+  margin-bottom: 15px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFD700;
+}
+
+nav a:hover {
+  color: #F5F5DC;
+}
+
+/* About Page Title Box */
+.main-about {
+  text-align: center;
+  background-color: #F5F5DC;
+  color: #2F4F4F;
+  border: 3px solid #A0522D;
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 40px auto;
+  font-size: 1.6rem;
+  font-family: Georgia, serif;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+  border-radius: 10px;
+}
+
+/* About Layout */
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border: 2px solid #DCDCDC;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.about-container img {
+  width: 400px;
+  height: auto;
+  border: 3px solid #A0522D;
+  border-radius: 12px;
+}
+
+.about-text {
+  flex: 1;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  text-align: left;
+  color: #2F4F4F;
+}
+
+/* Hobbies Page Title Box */
+.main-hobbies {
+  text-align: center;
+  background-color: #F5F5DC;
+  color: #2F4F4F;
+  border: 3px solid #A0522D;
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 40px auto;
+  font-size: 1.6rem;
+  font-family: Georgia, serif;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+  border-radius: 10px;
+}
+
+/* Each Hobby Section */
+.hobby {
+  margin: 40px auto;
+  max-width: 900px;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 2px solid #DCDCDC;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.hobby h3 {
+  margin-bottom: 15px;
+  color: #2F4F4F;
+  font-family: Georgia, serif;
+}
+
+.hobby p {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #2F4F4F;
+  text-align: center;
+  text-decoration: underline;
+}
