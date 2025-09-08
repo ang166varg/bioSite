@@ -23,6 +23,19 @@ header h1 {
   margin-bottom: 15px;
 }
 
+nav ul {
+  list-style: none;        /* removes bullets */
+  display: flex;           /* puts links in a row */
+  justify-content: center; /* centers them horizontally */
+  gap: 20px;               /* spacing between links */
+  padding: 0;
+  margin: 15px 0 0 0;      /* space above nav */
+}
+
+nav li {
+  display: inline;         /* makes each <li> inline */
+}
+
 nav a {
   margin: 0 15px;
   text-decoration: none;
