@@ -227,3 +227,40 @@ nav a:hover {
   text-align: center;
   text-decoration: underline;
 }
+
+footer {
+  background: linear-gradient(135deg, #2F4F4F, #A0522D); /* same gradient as header */
+  color: #FFD700; /* gold text */
+  text-align: center;
+  padding: 1em;
+  border-top: 5px solid #F5F5DC; /* beige accent like header bottom */
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+  font-family: Georgia, serif;
+}
+/* Figure + Caption Styling */
+figure {
+  display: inline-block;       /* keeps figures side by side in galleries */
+  margin: 10px;
+  text-align: center;          /* centers image + caption */
+}
+
+figure img {
+  width: 250px;                /* same width as gallery images */
+  height: auto;
+  border: 2px solid #DCDCDC;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #2F4F4F;
+  margin-top: 6px;
+  font-style: italic;
+}
+
