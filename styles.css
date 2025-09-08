@@ -36,6 +36,12 @@ nav li {
   display: inline;         /* makes each <li> inline */
 }
 
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFD700;
+}
 
 nav a:hover {
   color: #F5F5DC; /* hover effect */
